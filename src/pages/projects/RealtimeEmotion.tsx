@@ -118,7 +118,7 @@ const RealtimeEmotion = () => {
       />
 
       <ImageCarousel
-        images={realtimeEmotion}
+        images={projectImages}
         projectName="Real-Time Mood Detection"
       />
 
