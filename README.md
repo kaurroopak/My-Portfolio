@@ -4,7 +4,7 @@ A personal portfolio showcasing my projects, research, technical skills, certifi
 
 ## 🌐 Live Website
 
-> *Coming Soon*
+> *[Portfolio]*(https://roopakjeetkaur.vercel.app/)
 
 ## 👋 About
 
