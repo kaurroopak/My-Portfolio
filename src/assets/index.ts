@@ -1,7 +1,7 @@
 // Main assets module - consolidates common assets
-import aboutMeJournalPng from './journal.PNG';
-import aboutMeJournalWebp800 from './journal.PNG';
-import aboutMeJournalWebp400 from './journal.PNG';
+import aboutMeJournalPng from './journal.png';
+import aboutMeJournalWebp800 from './journal.png';
+import aboutMeJournalWebp400 from './journal.png';
 // Add your profile images here
 import profile1 from './profile1.jpg';
 import profile2 from './profile2.jpg';
