@@ -28,6 +28,7 @@ const BAE = lazy(() => import("./pages/projects/Bae"));
 const StudyBuzz = lazy(() => import("./pages/projects/StudyBuzz"));
 const RealtimeEmotion = lazy(() => import("./pages/projects/RealtimeEmotion"));
 const GinnieVoiceAssistant = lazy(() => import("./pages/projects/GinnieVoiceAssistant"));
+const Nexalyze = lazy(() => import("./pages/projects/Nexalyze"));
 
 function HomePage() {
   const { isDarkMode } = useDarkMode();
@@ -109,13 +110,14 @@ function AppContent() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/projects/project-one" element={<SmartDeskAI />} />
-              <Route path="/projects/project-two" element={<AlzheimerRisk />} />
-              <Route path="/projects/project-three" element={<FingerCounting />} />
-              <Route path="/projects/project-four" element={<BAE />} />
-              <Route path="/projects/project-five" element={<StudyBuzz />} />
-              <Route path="/projects/project-six" element={<RealtimeEmotion />} />
-              <Route path="/projects/project-seven" element={<GinnieVoiceAssistant />} />
+              <Route path="/projects/smartdesk-ai" element={<SmartDeskAI />} />
+              <Route path="/projects/nexalyze" element={<Nexalyze />} />
+              <Route path="/projects/alzeihmers" element={<AlzheimerRisk />} />
+              <Route path="/projects/finger-count" element={<FingerCounting />} />
+              <Route path="/projects/bae" element={<BAE />} />
+              <Route path="/projects/studybuzz" element={<StudyBuzz />} />
+              <Route path="/projects/realtime-emotion" element={<RealtimeEmotion />} />
+              <Route path="/projects/ginnie" element={<GinnieVoiceAssistant />} />
             </Routes>
           </Suspense>
         </main>

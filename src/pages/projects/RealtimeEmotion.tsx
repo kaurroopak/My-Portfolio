@@ -112,8 +112,8 @@ const RealtimeEmotion = () => {
         icon={emotionIcon}
         title="Real-Time Mood Detection System"
         subtitle="AI-Powered Facial Emotion Recognition using MobileNetV2"
-        githubUrl={socialLinks.repositories.projectSix}
-        liveUrl={socialLinks.live.projectSix}
+        githubUrl={socialLinks.repositories.realtimeEmotion}
+        liveUrl={socialLinks.live.realtimeEmotion}
         features={features}
       />
 

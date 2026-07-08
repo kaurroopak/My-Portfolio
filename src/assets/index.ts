@@ -65,6 +65,25 @@ import ginnie12 from "./project_snapshots/ginnieVA/ginnie_snapshot_12.png";
 import ginnie13 from "./project_snapshots/ginnieVA/ginnie_snapshot_13.png";
 import ginnie14 from "./project_snapshots/ginnieVA/ginnie_snapshot_14.png";
 
+import nexalyze1 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_1.PNG";
+import nexalyze2 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_2.PNG";
+import nexalyze3 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_3.PNG";
+import nexalyze4 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_4.PNG";
+import nexalyze5 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_5.PNG";
+import nexalyze6 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_6.PNG";
+import nexalyze7 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_7.PNG";
+import nexalyze8 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_8.PNG";
+import nexalyze9 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_9.PNG";
+import nexalyze10 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_10.PNG";
+import nexalyze11 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_11.PNG";
+import nexalyze12 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_12.PNG";
+import nexalyze13 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_13.PNG";
+import nexalyze14 from "./project_snapshots/nexalyze/nexalyze_dark_snapshot_14.PNG";
+import nexalyze15 from "./project_snapshots/nexalyze/nexalyze_light_snapshot_1.PNG";
+import nexalyze16 from "./project_snapshots/nexalyze/nexalyze_light_snapshot_2.PNG";
+import nexalyze17 from "./project_snapshots/nexalyze/nexalyze_light_snapshot_3.PNG";
+import nexalyze18 from "./project_snapshots/nexalyze/nexalyze_light_snapshot_4.PNG";
+
 // For backward compatibility
 const aboutMeJournal = aboutMeJournalPng;
 
@@ -153,6 +172,27 @@ export const ginnieVA = [
   ginnie12,
   ginnie13,
   ginnie14,
+]
+
+export const nexalyze = [
+  nexalyze1,
+  nexalyze2,
+  nexalyze3,
+  nexalyze4,
+  nexalyze5,
+  nexalyze6,
+  nexalyze7,
+  nexalyze8,
+  nexalyze9,
+  nexalyze10,
+  nexalyze11,
+  nexalyze12,
+  nexalyze13,
+  nexalyze14,
+  nexalyze15,
+  nexalyze16,
+  nexalyze17,
+  nexalyze18,
 ]
 
 

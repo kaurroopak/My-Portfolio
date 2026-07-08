@@ -103,7 +103,7 @@ const FingerCounting = () => {
         icon={HandIcon}
         title="Finger Counting & Gesture Recognition"
         subtitle="Real-Time Computer Vision using MediaPipe and Machine Learning"
-        githubUrl={socialLinks.repositories.projectThree}
+        githubUrl={socialLinks.repositories.fingerCounting}
         features={features}
       />
 

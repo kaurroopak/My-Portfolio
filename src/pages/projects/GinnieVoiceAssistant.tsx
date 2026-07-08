@@ -105,7 +105,7 @@ const Ginnie = () => {
         icon={ginnieIcon}
         title="Ginnie"
         subtitle="Python-Based Personal Voice Assistant"
-        githubUrl={socialLinks.repositories.projectSeven}
+        githubUrl={socialLinks.repositories.ginnieVa}
         features={features}
       />
 

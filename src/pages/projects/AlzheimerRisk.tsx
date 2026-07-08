@@ -105,8 +105,8 @@ const AlzheimerRisk = () => {
         icon={AlzheimerIcon}
         title="Alzheimer's Disease Prediction"
         subtitle="Medical AI System for Dementia Risk Assessment"
-        githubUrl={socialLinks.repositories.projectTwo}
-        liveUrl={socialLinks.live.projectTwo}
+        githubUrl={socialLinks.repositories.alzeihmerRisk}
+        liveUrl={socialLinks.live.alzeihmerRisk}
         features={features}
       />
 

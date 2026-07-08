@@ -1,6 +1,7 @@
 // Project icons module - consolidates all project icon imports
 import SmartDeskAiIcon from './SmartDeskAiIcon.png';
 import AlzheimerIcon from './AlzheimerIcon.webp';
+import nexalyzeIcon from './nexalyzeIcon.png';
 import BaeIcon from './BaeIcon.jpg';
 import HandIcon from './HandIcon.png';
 import StudyBuzzIcon from './StudyBuzzIcon.jpg'
@@ -10,6 +11,7 @@ import ginnieIcon from './ginnieIcon.webp'
 export {
   SmartDeskAiIcon,
   AlzheimerIcon,
+  nexalyzeIcon,
   BaeIcon,
   HandIcon,
   StudyBuzzIcon,
@@ -20,6 +22,7 @@ export {
 export default {
   SmartDeskAiIcon,
   AlzheimerIcon,
+  nexalyzeIcon,
   BaeIcon,
   HandIcon,
   StudyBuzzIcon,

@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/
 import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
-import { SmartDeskAiIcon, AlzheimerIcon, HandIcon, BaeIcon, StudyBuzzIcon, emotionIcon, ginnieIcon } from '../../assets/project_icons';
+import { SmartDeskAiIcon, AlzheimerIcon, nexalyzeIcon, BaeIcon, HandIcon, StudyBuzzIcon, emotionIcon, ginnieIcon } from '../../assets/project_icons';
 import { comingSoon } from '../../assets';
 
 const Projects = () => {
@@ -234,56 +234,72 @@ const Projects = () => {
       description: "AI-powered ticket automation system with confidence-based decision making and human-in-the-loop validation for reliable enterprise support workflows.",
       technologies: ["Python", "NLP", "Streamlit", "Automation Workflows", "Machine Learning"],
       icon: SmartDeskAiIcon,
-      detailsUrl: "/projects/project-one",
-      githubUrl: socialLinks.repositories.projectOne
+      detailsUrl: "/projects/smartdesk-ai",
+      githubUrl: socialLinks.repositories.smartdeskAi,
+      liveUrl: socialLinks.live.smartdeskAi
+    },
+    {
+      title: "Nexalyze",
+      description: "Instant Exploratory Data Analysis dashboard in Streamlit - upload a CSV, get data quality checks, visualizations, correlations & outlier detection in seconds.",
+      technologies: ["Python", "Streamlit", "Data Analysis", "Data Visualization", "Pandas", "NumPy", "Matplotlib", "Plotly Express"],
+      icon: nexalyzeIcon,
+      detailsUrl: "/projects/nexalyze",
+      githubUrl: socialLinks.repositories.nexalyze,
+      liveUrl: socialLinks.live.nexalyze
     },
     {
       title: "Alzeihmer’s Disease Risk Prediction",
       description: "A Streamlit-based web application that predicts Alzheimer’s disease risk using both machine learning (XGBoost on clinical MRI biomarkers) and deep learning (VGG16 on MRI images), with downloadable PDF reports for each prediction.",
       technologies: ["Python", "Streamlit", "Scikit-learn", "Pandas", "Tensorflow"],
       icon: AlzheimerIcon,
-      detailsUrl: "/projects/project-two",
-      githubUrl: socialLinks.repositories.projectTwo
+      detailsUrl: "/projects/alzeihmers",
+      githubUrl: socialLinks.repositories.alzeihmerRisk,
+      liveUrl: socialLinks.live.alzeihmerRisk
+    },
+    {
+      title: "BAE-Bringing Aesthetics to Emotions",
+      description: "BAE is a smart wardrobe web application that merges emotion recognition and fashion intelligence to help users manage their wardrobe and generate outfit recommendations tailored to their mood and preferences.",
+      technologies: ["React.js", "TypeScript", "Next.js", "Flask", "TensorFlow", "Keras", "Figma", "MongoDB Atlas"],
+      icon: BaeIcon,
+      detailsUrl: "/projects/bae",
+      githubUrl: socialLinks.repositories.BAE,
+      liveUrl: socialLinks.live.BAE
     },
     {
       title: "Finger Counting and Hand Gesture Recognition System",
       description: "A real-time hand gesture and finger counting recognition system built using MediaPipe, OpenCV, and scikit-learn. Counts fingers and detects custom gestures with 90%+ accuracy using a RandomForestClassifier trained on HOG features.",
       technologies: ["Python", "OpenCV", "MediaPipe", "Scikit-learn", "Numpy", "Computer Vision"],
       icon: HandIcon,
-      detailsUrl: "/projects/project-three",
-      githubUrl: socialLinks.repositories.projectThree
-    },
-    {
-      title: "BAE-Bringing Aesthetics to Emotions",
-      description: "BAE is a smart wardrobe web application that merges emotion recognition and fashion intelligence to help users manage their wardrobe and generate outfit recommendations tailored to their mood and preferences.",
-      technologies: ["React.js", "TypeScript", "Node.js", "Flask", "TensorFlow", "Keras", "Figma", "MongoDB Atlas"],
-      icon: BaeIcon,
-      detailsUrl: "/projects/project-four",
-      githubUrl: socialLinks.repositories.projectFour
+      detailsUrl: "/projects/finger-count",
+      githubUrl: socialLinks.repositories.fingerCounting,
+      liveUrl: socialLinks.live.fingerCounting
     },
     {
       title: "StudyBuzz",
       description: "StudyBuzz is a Python-based computer vision tool that detects drowsiness and yawning using facial landmarks. It uses MediaPipe for real-time face tracking and provides spoken alerts via pyttsx3 to help students stay focused during study sessions. The system is lightweight, offline, and easily adaptable for educational or safety-critical use.",
       technologies: ["Python", "OpenCV", "MediaPipe", "Computer Vision", "FaceMesh", "pyttsx3"],
       icon: StudyBuzzIcon,
-      detailsUrl: "/projects/project-five",
-      githubUrl: socialLinks.repositories.projectFive
+      detailsUrl: "/projects/studybuzz",
+      githubUrl: socialLinks.repositories.studyBuzz,
+      liveUrl: socialLinks.live.studyBuzz
     },
     {
       title: "Real-time Emotion Detection using CNN",
       description: "Real-time facial emotion detection system using a CNN (MobileNetV2) to classify expressions as Happy, Neutral, or Sad. Deployed with Streamlit and optimized using TensorFlow Lite for fast, real-time inference via image upload and webcam input.",
       technologies: ["Python", "TensorFlow", "CNN", "OpenCV", "Streamlit", "NumPy", "Pandas"],
       icon: emotionIcon,
-      detailsUrl: "/projects/project-six",
-      githubUrl: socialLinks.repositories.projectSix
+      detailsUrl: "/projects/realtime-emotion",
+      githubUrl: socialLinks.repositories.realtimeEmotion,
+      liveUrl: socialLinks.live.realtimeEmotion
     },
     {
       title: "Ginnie - VoiceAssistant",
       description: "Ginnie is a Python-based voice assistant that responds to your voice commands to open applications, control media, fetch news and weather, tell jokes and fun facts, take screenshots, search Wikipedia, and more - all through simple conversation.",
       technologies: ["Python", "SpeechRecognition", "pyttsx3", "Conversational AI"],
       icon: ginnieIcon,
-      detailsUrl: "/projects/project-seven",
-      githubUrl: socialLinks.repositories.projectSeven
+      detailsUrl: "/projects/ginnie",
+      githubUrl: socialLinks.repositories.ginnieVa,
+      liveUrl: socialLinks.live.ginnieVa
     }
   ];
 
@@ -527,6 +543,12 @@ const Projects = () => {
                       <Code className="h-4 w-4" aria-hidden="true" />
                       Code
                     </a>
+                    {project.liveUrl && (
+                      <a href={project.liveUrl} className="project-btn-outline flex items-center gap-1" style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} live project`}>
+                        <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                        Live
+                      </a>
+                    )}
                   </div>
                 </CardContent>
               </Card>

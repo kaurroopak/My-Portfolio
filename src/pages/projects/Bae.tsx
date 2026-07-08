@@ -62,16 +62,17 @@ const BAE = () => {
 
     "Python",
     "Flask",
-    "MySQL",
+    "React.js",
+    "TypeScript",
+    "Next.js",
+    "MongoDB Atlas",
+    "Figma",
+    "Deep Learning",
     "MobileNetV2",
     "TensorFlow",
     "Keras",
     "OpenCV",
     "Cloudinary",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Bootstrap"
 
   ];
 
@@ -107,8 +108,8 @@ const BAE = () => {
         icon={BaeIcon}
         title="BAE - Bringing Aesthetics to Emotion"
         subtitle="AI-Powered Emotion-Adaptive Virtual Wardrobe Management System"
-        githubUrl={socialLinks.repositories.projectFour}
-        liveUrl={socialLinks.live.projectFour}
+        githubUrl={socialLinks.repositories.BAE}
+        liveUrl={socialLinks.live.BAE}
         features={features}
       />
 

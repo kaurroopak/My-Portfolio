@@ -101,7 +101,7 @@ const SmartDeskAI = () => {
         icon={SmartDeskAiIcon}
         title="SmartDeskAI"
         subtitle="AI-powered Helpdesk Ticket Automation System"
-        githubUrl={socialLinks.repositories.projectOne}
+        githubUrl={socialLinks.repositories.smartdeskAi}
         features={features}
       />
 

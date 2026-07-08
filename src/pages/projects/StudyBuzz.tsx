@@ -110,7 +110,7 @@ const StudyBuzz = () => {
         icon={StudyBuzzIcon}
         title="StudyBuzz"
         subtitle="Real-Time Drowsiness & Yawning Detection System"
-        githubUrl={socialLinks.repositories.projectFive}
+        githubUrl={socialLinks.repositories.studyBuzz}
         features={features}
       />
 
