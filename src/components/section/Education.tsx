@@ -14,7 +14,7 @@ const Education = () => {
       specialization: "Computer Science & Engineering",
       institute: "Thapar Institute of Engineering & Technology",
       period: "2024 – 2027",
-      score: "CGPA: 8.2 / 10",
+      score: "CGPA: 8.0 / 10",
       subjects: [
         "Machine Learning",
         "DBMS",
@@ -22,7 +22,8 @@ const Education = () => {
         "Object Oriented Programming",
         "Computer Networks",
         "Data Structures",
-        "Algorithms"
+        "Algorithms",
+        "Conversational AI"
       ]
     },
     {
